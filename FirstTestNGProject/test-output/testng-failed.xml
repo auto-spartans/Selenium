@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="EdgeTest(failed)">
-    <parameter name="browser" value="Edge"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="firsttestngpackage.PXXXCrossBrowserScript">
+      <class name="firsttestngpackage.FirstTestNGFileErrors">
         <methods>
-          <include name="setup"/>
-          <include name="testParameterWithXML"/>
+          <include name="verifyHomepageTitle"/>
         </methods>
-      </class> <!-- firsttestngpackage.PXXXCrossBrowserScript -->
+      </class> <!-- firsttestngpackage.FirstTestNGFileErrors -->
     </classes>
-  </test> <!-- EdgeTest(failed) -->
-  <test thread-count="2" parallel="tests" name="IETest(failed)">
-    <parameter name="browser" value="Internet Explorer"/>
-    <classes>
-      <class name="firsttestngpackage.PXXXCrossBrowserScript">
-        <methods>
-          <include name="setup"/>
-          <include name="testParameterWithXML"/>
-        </methods>
-      </class> <!-- firsttestngpackage.PXXXCrossBrowserScript -->
-    </classes>
-  </test> <!-- IETest(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
