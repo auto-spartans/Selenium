@@ -4,7 +4,7 @@
 <suite name="TestNG">
  <test name="testngTest">
  <classes>
- <class name="firsttestngpackage.FirstTestNGFile" />
+<!-- <class name="firsttestngpackage.FirstTestNGFile" /> -->
  <class name="firsttestngpackage.P149AnnotationsBasic" />
  </classes>
  </test>
