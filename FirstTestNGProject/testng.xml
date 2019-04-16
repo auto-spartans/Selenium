@@ -5,7 +5,7 @@
  <test name="testngTest">
  <classes>
  <class name="firsttestngpackage.FirstTestNGFile" />
-  <class name="firsttestngpackage.FirstTestNGFileErrors" />
+  <class name="firsttestngpackage.OlsonsDesign1" />
  </classes>
  </test>
 </suite>
