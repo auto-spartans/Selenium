@@ -5,6 +5,7 @@
  <test name="testngTest">
  <classes>
  <class name="firsttestngpackage.FirstTestNGFile" />
+ <class name="firsttestngpackage.P149AnnotationsBasic" />
  </classes>
  </test>
 </suite>
